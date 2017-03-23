@@ -13,4 +13,6 @@ $canvas = $_POST['canvas'];
 
 $sql = "INSERT INTO volunteers (date, first_name, last_name, email, phone, register, phonebank, canvas)
  VALUES ('$date', '$first_name', '$last_name', '$email', '$phone', '$register', '$phonebank', '$canvas')";
- $result = $conn->query($sql);
+$result = $conn->query($sql);
+
+header('Location: index.php');
