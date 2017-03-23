@@ -26,15 +26,15 @@ This is where you can sign up to help Doug McKinley fight for the working class.
 </div>
 <div>
   <label for="last">Last Name:</label>
-  <input type="text" name="user_last_name">
+  <input type="text" name="user_last_name" placeholder = "Last Name">
 </div>
 <div>
   <label for="mail">E-mail:</label>
-  <input type="email" name="user_mail">
+  <input type="email" name="user_mail" placeholder = "you@email.com">
 </div>
 <div>
   <label for="cell">Cell Phone:</label>
-  <input type="text" name="user_phone">
+  <input type="text" name="user_phone" placeholder = "555-123-4567">
 </div>
 I want to:
 <div>
