@@ -36,6 +36,16 @@ This is where you can sign up to help Doug McKinley fight for the working class.
   <label for="cell">Cell Phone:</label>
   <input type="text" name="user_phone">
 </div>
+I want to:
+<div>
+<input type="checkbox" name="volunteer" value="register"> Register to Vote
+</div>
+<div>
+<input type="checkbox" name="volunteer" value="phonebank"> Phonebank
+</div>
+<div>
+<input type="checkbox" name="volunteer" value="canvas"> Canvas
+</div>
 <div class="button">
   <button type="submit">Join the Movement</button>
 </div>
