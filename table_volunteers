@@ -9,3 +9,6 @@ CREATE TABLE volunteers (
     phonebank bit not null,
     canvas bit not null
 );
+
+
+INSERT INTO `volunteers`(`date`, `first_name`, `last_name`, `email`, `phone`, `register`, `phonebank`, `canvas`) VALUES ('2017-03-23 16:38:01','example_first','example_last','example@example.com','555-123-4567','1','','1')
