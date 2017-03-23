@@ -1,0 +1,11 @@
+CREATE TABLE volunteers (
+	id int(11) not null PRIMARY KEY AUTO_INCREMENT,
+    date datetime not null,
+    first_name varchar(32) not null,
+    last_name varchar(32) not null,
+    email varchar(128) not null,
+    phone varchar(16) not null,
+    register bit not null,
+    phonebank bit not null,
+    canvas bit not null
+);

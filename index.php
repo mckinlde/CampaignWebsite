@@ -38,13 +38,13 @@ This is where you can sign up to help Doug McKinley fight for the working class.
 </div>
 I want to:
 <div>
-<input type="checkbox" name="volunteer" value="register"> Register to Vote
+<input type="checkbox" name="register" value="register"> Register to Vote
 </div>
 <div>
-<input type="checkbox" name="volunteer" value="phonebank"> Phonebank
+<input type="checkbox" name="phonebank" value="phonebank"> Phonebank
 </div>
 <div>
-<input type="checkbox" name="volunteer" value="canvas"> Canvas
+<input type="checkbox" name="canvas" value="canvas"> Canvas
 </div>
 <div class="button">
   <button type="submit">Join the Movement</button>
