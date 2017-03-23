@@ -18,11 +18,11 @@
 
   <body>
 This is where you can sign up to help Doug McKinley fight for the working class.  If you support a living wage, students graduating without lifelong debt, and a path to citizenship for those striving towards the American dream, enter your information below and we will contact you with our thanks and missions.
-
-<form method="POST">
+<div>
+<form action="signup.php" method="POST">
 <div>
   <label for="first">First Name:</label>
-  <input type="text" name="user_first_name">
+  <input type="text" name="user_first_name" placeholder = "First Name">
 </div>
 <div>
   <label for="last">Last Name:</label>
@@ -50,6 +50,7 @@ I want to:
   <button type="submit">Join the Movement</button>
 </div>
 </form>
+</div>
 
     <?php
       //echo "Hi there";
@@ -68,15 +69,17 @@ I want to:
       newCalc($a);
       */
 
-      $array = array($_GET['user_first_name'],
-                     $_GET['user_last_name'],
-                     $_GET['user_mail'],
-                     $_GET['user_phone']);
+/*
+      $array = array($_POST['user_first_name'],
+                     $_POST['user_last_name'],
+                     $_POST['user_mail'],
+                     $_POST['user_phone']);
 
       //$name = $_GET['user_first_name'];
       //echo $name." is a handsome fellow";
 
       echo $array[0];
+      */
      ?>
 
   </body>
